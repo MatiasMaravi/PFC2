@@ -1,0 +1,58 @@
+
+Supervised only
+---------------
+accuracy: 0.8470 ± 0.1662
+f1: 0.7172 ± 0.3282
+balanced_accuracy: 0.8148 ± 0.2122
+auroc: 0.8922 ± 0.2422
+
+SSL + supervised
+----------------
+accuracy: 0.8610 ± 0.1258
+f1: 0.7103 ± 0.3201
+balanced_accuracy: 0.8276 ± 0.1860
+auroc: 0.8950 ± 0.2349
+
+SSL + synthetic + supervised
+----------------------------
+accuracy: 0.8570 ± 0.1917
+f1: 0.7521 ± 0.3392
+balanced_accuracy: 0.8369 ± 0.2329
+auroc: 0.8835 ± 0.2522
+
+=== EXPERIMENTOS LOW-LABEL ===
+Supervised 20% labels: {'accuracy': 0.9552238805970149, 'f1': 0.9302325581395349, 'balanced_accuracy': 0.9680851063829787, 'auroc': 0.9978723404255319}
+SSL 20% labels: {'accuracy': 0.9701492537313433, 'f1': 0.9523809523809523, 'balanced_accuracy': 0.9787234042553192, 'auroc': 1.0}
+SSL + synth 20% labels: {'accuracy': 1.0, 'f1': 1.0, 'balanced_accuracy': 1.0, 'auroc': 1.0}
+
+Supervised only
+---------------
+Hyperparameters: {'use_ssl': False, 'use_synth': False, 'ft_epochs': 8}
+accuracy: 0.8470 ± 0.1662
+f1: 0.7172 ± 0.3282
+balanced_accuracy: 0.8148 ± 0.2122
+auroc: 0.8922 ± 0.2422
+
+SSL + supervised
+----------------
+Hyperparameters: {'use_ssl': True, 'use_synth': False, 'ssl_epochs': 6, 'ft_epochs': 8}
+accuracy: 0.8610 ± 0.1258
+f1: 0.7103 ± 0.3201
+balanced_accuracy: 0.8276 ± 0.1860
+auroc: 0.8950 ± 0.2349
+
+SSL + synthetic + supervised
+----------------------------
+Hyperparameters: {'use_ssl': True, 'use_synth': True, 'ssl_epochs': 6, 'ft_epochs': 8, 'synth_ratio': 0.5}
+accuracy: 0.8570 ± 0.1917
+f1: 0.7521 ± 0.3392
+balanced_accuracy: 0.8369 ± 0.2329
+auroc: 0.8835 ± 0.2522
+
+=== EXPERIMENTOS LOW-LABEL (Fracción: 0.2) ===
+--- Supervised 20.0% labels | Hyperparameters: {'ft_epochs': 8} ---
+Results: {'accuracy': 0.9552238805970149, 'f1': 0.9302325581395349, 'balanced_accuracy': 0.9680851063829787, 'auroc': 0.9978723404255319}
+--- SSL 20.0% labels | Hyperparameters: {'ssl_epochs': 6, 'ft_epochs': 8} ---
+Results: {'accuracy': 0.9701492537313433, 'f1': 0.9523809523809523, 'balanced_accuracy': 0.9787234042553192, 'auroc': 1.0}
+--- SSL + synth 20.0% labels | Hyperparameters: {'ssl_epochs': 6, 'ft_epochs': 8, 'synth_ratio': 0.75} ---
+Results: {'accuracy': 1.0, 'f1': 1.0, 'balanced_accuracy': 1.0, 'auroc': 1.0}
