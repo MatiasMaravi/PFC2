@@ -2,3 +2,4 @@ WESAD/
 venv/
 ejemplo/
 processed_data/
+processed_data/*.csv
