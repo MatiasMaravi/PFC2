@@ -1,0 +1,6 @@
+
+Supervised only
+accuracy: 0.8649 ± 0.1403
+f1: 0.7321 ± 0.3309
+balanced_accuracy: 0.8391 ± 0.1917
+auroc: 0.8904 ± 0.2386

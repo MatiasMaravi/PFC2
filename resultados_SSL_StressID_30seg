@@ -1,0 +1,6 @@
+
+SSL + supervised
+accuracy: 0.6273 ± 0.0570
+f1: 0.7416 ± 0.0446
+balanced_accuracy: 0.5625 ± 0.0564
+auroc: 0.6093 ± 0.0799
