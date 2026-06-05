@@ -1,0 +1,6 @@
+
+Combinado -> WESAD params / test WESAD
+accuracy: 0.9292 ± 0.0000
+f1: 0.8800 ± 0.0000
+balanced_accuracy: 0.9130 ± 0.0000
+auroc: 0.9828 ± 0.0000
