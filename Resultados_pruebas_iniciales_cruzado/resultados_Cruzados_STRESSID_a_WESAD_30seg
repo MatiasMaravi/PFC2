@@ -1,6 +1,0 @@
-
-STRESS-ID->WESAD
-accuracy: 0.3015 ± 0.0490
-f1: 0.4409 ± 0.0814
-balanced_accuracy: 0.4877 ± 0.0775
-auroc: 0.5723 ± 0.2286
