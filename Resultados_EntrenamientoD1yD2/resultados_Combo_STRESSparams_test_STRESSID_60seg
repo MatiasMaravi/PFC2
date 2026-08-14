@@ -1,6 +1,6 @@
 
-Combinado -> STRESS params / test STRESS-ID
-accuracy: 0.6019 ± 0.0000
-f1: 0.7435 ± 0.0000
-balanced_accuracy: 0.5196 ± 0.0000
-auroc: 0.6032 ± 0.0000
+Combinado->STRESS params/test STRESS-ID
+accuracy: 0.8364 ± 0.0000
+f1: 0.8556 ± 0.0000
+balanced_accuracy: 0.8396 ± 0.0000
+auroc: 0.8662 ± 0.0000

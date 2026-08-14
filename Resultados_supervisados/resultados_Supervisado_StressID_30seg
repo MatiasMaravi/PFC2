@@ -1,6 +1,6 @@
 
 Supervised only
-accuracy: 0.6063 ± 0.0499
-f1: 0.7375 ± 0.0370
-balanced_accuracy: 0.5302 ± 0.0463
-auroc: 0.5848 ± 0.0747
+accuracy: 0.8294 ± 0.1547
+f1: 0.8592 ± 0.1288
+balanced_accuracy: 0.8218 ± 0.1659
+auroc: 0.9001 ± 0.1507
